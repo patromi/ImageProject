@@ -86,7 +86,7 @@ python manage.py run
 
 
 ## Endpoints
-Public Endpoint is avaibible on /docs/
+Public Endpoints are avaibible on /docs/
 
 ## Token
 
