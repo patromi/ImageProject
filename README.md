@@ -66,17 +66,17 @@ python manage.py run
 ```
 
 ## Permissions
-### "Basic" plan  
-  a link to a thumbnail that's 200px in height
-### "Premium" plan  
-a link to a thumbnail that's 200px in height
-a link to a thumbnail that's 400px in height
-a link to the originally uploaded image
-### "Enterprise" plan  
-a link to a thumbnail that's 200px in height
-a link to a thumbnail that's 400px in height
-a link to the originally uploaded image
-ability to fetch an expiring link to the image 
+## "Basic" plan  
+* a link to a thumbnail that's 200px in height
+## "Premium" plan  
+* a link to a thumbnail that's 200px in height
+* a link to a thumbnail that's 400px in height
+* a link to the originally uploaded image
+## "Enterprise" plan  
+* a link to a thumbnail that's 200px in height
+* a link to a thumbnail that's 400px in height
+* a link to the originally uploaded image
+* ability to fetch an expiring link to the image 
 
 ### "Admin"
 arbitrary thumbnail sizes
@@ -85,10 +85,10 @@ ability to generate expiring links
 
 
 
-##Endpoints
+## Endpoints
 Public Endpoint is avaibible on /docs/
 
-### Token
+## Token
 
 To get a token you need to send POST /api/token/
 
@@ -149,7 +149,7 @@ Response code 400 bad params:
 }
 ```
 
-### Upload a medium image (400x400)
+## Upload a medium image (400x400)
 
 Access : "Premium" and upper
 
@@ -178,7 +178,7 @@ Response code 400 bad params:
 }
 ```
 
-### Upload a original image (original resolution)
+## Upload a original image (original resolution)
 
 Access : "Premium" and upper
 
@@ -208,7 +208,7 @@ Response code 400 bad params:
 ```
 
 
-### Upload a Custom image (Custom resolution)
+## Upload a Custom image (Custom resolution)
 
 Access : "Premium" and upper
 
@@ -247,7 +247,7 @@ Response code 403 No permision:
 }
 ```
 
-### Upload a expired_time img
+## Upload a expired_time img
 
 Access : "Enterprise" and upper
 
@@ -284,7 +284,7 @@ Response code 403 No permision:
 ```
 
 
-### View your images
+## View your images
 
 * url: GET /api/list/ 
 
@@ -297,14 +297,14 @@ Response code 200
     "previous": null,
     "results": [
         {
-            "title": {title},
+            "title": "title",
             "link": "{host}/api/view/{uuid}/",
             "resolution": "200x200",
             "create_at": "2023-03-15T12:41:30.668695Z",
             "expired_at": "2023-03-15T12:46:56Z"
         },
         {
-            "title": {title},
+            "title": "{title}",
             "link": "{host}/api/view/{uuid",
             "resolution": "900x900",
             "create_at": "2023-03-15T12:46:40.459191Z",
