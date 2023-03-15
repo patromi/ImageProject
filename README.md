@@ -5,7 +5,6 @@ You must first copy the repository:
 
 ```
 git clone https://github.com/patromi/ImageProject.git
-
 ```
 In the next step, create a ".env" file and specify SECRET_KEY inside. If you do not know how, simply copy from https://djecrety.ir/.
 
@@ -19,7 +18,6 @@ docker build -t imageapi .
 and run
 
 ```
-
 docker run -p 8000:8000 imageapi
 ```
 
@@ -55,7 +53,6 @@ python manage.py createsuperuser
 The project has 14 different unit tests. To run the tests execute:
 
 ```
-
 python manage.py test
 ```
 The project also has a command that runs the tests and the server simultaneously
