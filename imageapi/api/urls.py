@@ -1,10 +1,16 @@
 from django.urls import path
 from rest_framework.authtoken.views import obtain_auth_token
+from rest_framework.schemas import get_schema_view
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from . import views
 
 urlpatterns = [
+path('api_schema/', get_schema_view(
+        title='API Schema',
+        description='Guide for the REST API'
+    ), name='api_schema'),
+
     path("upload/small/", views.UploadSmallImage.as_view(),name='small_upload'),
     path("upload/medium/", views.UploadMediumImage.as_view(),name='medium_upload'),
     path("upload/orginal/", views.UploadOriginalImage.as_view(),name='original_upload'),
