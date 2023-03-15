@@ -58,6 +58,9 @@ or create them manually:
 ```
 python manage.py createsuperuser
 ```
+
+Disclaimer: Docker Setup create initadmin automatically
+
 ### Tests
 The project has 14 different unit tests. To run the tests execute:
 
