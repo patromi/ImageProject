@@ -10,6 +10,9 @@ You must first copy the repository:
 ```
 git clone https://github.com/patromi/ImageProject.git
 ```
+```
+cd Imageproject/imageapi 
+```
 In the next step, create a ".env" file and specify SECRET_KEY inside. If you do not know how, simply copy from https://djecrety.ir/.
 
 
@@ -26,9 +29,7 @@ docker run -p 8000:8000 imageapi
 ```
 
 ### Normal setup
-```
-cd Imageproject/imageapi 
-```
+
 
 Install Depediences
 
