@@ -15,5 +15,6 @@ RUN python manage.py migrate
 RUN python manage.py migrate core
 RUN python manage.py migrate users
 RUN python manage.py initadmin
+RUN python manage.py test
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
