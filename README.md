@@ -292,7 +292,7 @@ Response code 200
 
 ```json
 {
-    "count": count,
+    "count": 'count',
     "next": null,
     "previous": null,
     "results": [
