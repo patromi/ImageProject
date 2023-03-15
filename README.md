@@ -14,6 +14,10 @@ git clone https://github.com/patromi/ImageProject.git
 cd Imageproject/imageapi 
 ```
 In the next step, create a ".env" file and specify SECRET_KEY inside. If you do not know how, simply copy from https://djecrety.ir/.
+Inside .env provide secret_key:
+```
+SECRET_KEY = '{GENERATED_SECRET_KEY}'
+```
 
 
 ### Docker setup
