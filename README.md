@@ -65,7 +65,7 @@ The project also has a command that runs the tests and the server simultaneously
 python manage.py run
 ```
 
-## Permisions
+## Permissions
 ### "Basic" plan  
   a link to a thumbnail that's 200px in height
 ### "Premium" plan  
