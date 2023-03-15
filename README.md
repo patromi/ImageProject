@@ -3,7 +3,7 @@
 ##Fast Setup
 You must first copy the repository:
 
-```
+```bash
 git clone https://github.com/patromi/ImageProject.git
 ```
 In the next step, create a ".env" file and specify SECRET_KEY inside. If you do not know how, simply copy from https://djecrety.ir/.
