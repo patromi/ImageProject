@@ -37,4 +37,6 @@ tzdata==2022.7
     # via django
 django-rest-swagger==2.2.0
     # via django
+termcolor==2.2.0
+    # via django
 

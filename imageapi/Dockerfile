@@ -2,7 +2,7 @@ FROM python:3.10-slim-buster
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y git
-
+ENV PYTHONUNBUFFERED=1
 #RUN git clone https://github.com/patromi/ImageProject /app
 COPY . .
 
