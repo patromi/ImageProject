@@ -1,7 +1,5 @@
-import base64
 from datetime import datetime, timedelta
 from io import BytesIO
-
 import pytz
 from django.core.files.base import ContentFile
 from django.urls import reverse

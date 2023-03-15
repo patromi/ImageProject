@@ -1,5 +1,4 @@
 from django.http import FileResponse, HttpResponse
-from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -7,7 +6,7 @@ from core.models import Images
 from rest_framework import status, generics
 from .serializers import ListImageSerializer, SmallImageSerialzier, MediumImageSerialzier, OriginalImageSerialzier, \
     CustomImageSerialzier, ImagaViewSerializer
-from .permissions import NormalPermission, EnterprisePermission, PremiumPermission, RootPermission, IsUploader
+from .permissions import NormalPermission, PremiumPermission, RootPermission
 
 
 class UploadSmallImage(APIView):
