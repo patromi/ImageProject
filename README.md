@@ -1,6 +1,6 @@
 # ImageProject
 
-##Fast Setup
+## Fast Setup
 You must first copy the repository:
 
 ```
