@@ -78,10 +78,10 @@ python manage.py run
 * a link to the originally uploaded image
 * ability to fetch an expiring link to the image 
 
-### "Admin"
-arbitrary thumbnail sizes
-presence of the link to the originally uploaded file
-ability to generate expiring links
+## "Admin"
+* arbitrary thumbnail sizes
+* presence of the link to the originally uploaded file
+* ability to generate expiring links
 
 
 
