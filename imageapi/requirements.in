@@ -3,5 +3,7 @@ djangorestframework==3.14.0
 djangorestframework_api_key==2.3.0
 djangorestframework_simplejwt==5.2.2
 Pillow==9.4.0
+python-dotenv==1.0.0
 pytz==2022.7.1
 rest_framework_simplejwt==0.0.1
+rest_framework_swagger==*
