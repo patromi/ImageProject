@@ -1,5 +1,5 @@
 # ImageProject
-## Goals
+## Project objective
 
 The purpose of this project is create a API picture hosting based on Django and Django Rest Framework.
 
@@ -117,7 +117,7 @@ Response Code 401 Unauthorized bad credentials:
 
 ## Authorization
 
-For successful authentication, the following must be entered Header Authorization with value "Bearer {your token}"
+For successful authentication, You must send the Authorization header with the value "Bearer {your token}"
 
 
 ## Functionality
@@ -335,7 +335,7 @@ Response 403 Forbidden:
     ]
 }
 
-Disclaimer: The link is expired only then when expired_time was specificate
+Disclaimer: The link is only expired if expired_time was specified
 
 
 
