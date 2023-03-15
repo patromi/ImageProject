@@ -7,7 +7,13 @@ ENV PYTHONUNBUFFERED=1
 COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
-CMD ["python", "manage.py", "makemigrations"]
-CMD ["python", "manage.py", "migrate"]
-CMD ["python", "manage.py", "inituser"]
+RUN python manage.py makemigrations
+RUN python manage.py makemigrations core
+RUN python manage.py makemigrations users
+
+RUN python manage.py migrate
+RUN python manage.py migrate core
+RUN python manage.py migrate users
+RUN python manage.py initadmin
+
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
